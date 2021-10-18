@@ -1,5 +1,0 @@
-/Users/danilkurkin/IDC_9.4/SumUpSDKBinding/SumUpSDKBinding/bin/Debug/SumUpSDKBinding.dll
-/Users/danilkurkin/IDC_9.4/SumUpSDKBinding/SumUpSDKBinding/bin/Debug/SumUpSDKBinding.pdb
-/Users/danilkurkin/IDC_9.4/SumUpSDKBinding/SumUpSDKBinding/obj/Debug/SumUpSDKBinding.csproj.CoreCompileInputs.cache
-/Users/danilkurkin/IDC_9.4/SumUpSDKBinding/SumUpSDKBinding/obj/Debug/SumUpSDKBinding.dll
-/Users/danilkurkin/IDC_9.4/SumUpSDKBinding/SumUpSDKBinding/obj/Debug/SumUpSDKBinding.pdb
