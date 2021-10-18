@@ -1,0 +1,46 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/danilkurkin/IDC_9.4/SumUpSDKBinding/SumUpSDKBinding/SumUpSDKBinding.csproj": {}
+  },
+  "projects": {
+    "/Users/danilkurkin/IDC_9.4/SumUpSDKBinding/SumUpSDKBinding/SumUpSDKBinding.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/danilkurkin/IDC_9.4/SumUpSDKBinding/SumUpSDKBinding/SumUpSDKBinding.csproj",
+        "projectName": "SumUpSDK.iOS",
+        "projectPath": "/Users/danilkurkin/IDC_9.4/SumUpSDKBinding/SumUpSDKBinding/SumUpSDKBinding.csproj",
+        "packagesPath": "/Users/danilkurkin/.nuget/packages/",
+        "outputPath": "/Users/danilkurkin/IDC_9.4/SumUpSDKBinding/SumUpSDKBinding/obj/",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "/Users/danilkurkin/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "xamarinios10"
+        ],
+        "sources": {
+          "/Users/danilkurkin/Forms_DC/NUGET": {},
+          "/Users/danilkurkin/ios-driver-NuGet/NugetPackages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "xamarinios10": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "xamarinios10": {
+          "dependencies": {
+            "NuGet.Build.Tasks.Pack": {
+              "target": "Package",
+              "version": "[6.0.0-preview.4.243, )"
+            }
+          }
+        }
+      }
+    }
+  }
+}

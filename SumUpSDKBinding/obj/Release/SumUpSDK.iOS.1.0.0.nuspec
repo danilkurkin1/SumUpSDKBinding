@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>SumUpSDK.iOS</id>
+    <version>1.0.0</version>
+    <authors>D Kurkin</authors>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <description>This is .Net binding to native SumUp library to be used in Xamarin project</description>
+    <releaseNotes>This is binding library for SumUp being supported on xamarin project</releaseNotes>
+    <dependencies>
+      <group targetFramework="Xamarin.iOS1.0" />
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System" targetFramework="Xamarin.iOS1.0" />
+      <frameworkAssembly assemblyName="System.Drawing.Common.dll" targetFramework="Xamarin.iOS1.0" />
+      <frameworkAssembly assemblyName="Xamarin.iOS" targetFramework="Xamarin.iOS1.0" />
+    </frameworkAssemblies>
+  </metadata>
+  <files>
+    <file src="/Users/danilkurkin/IDC_9.4/SumUpSDKBinding/SumUpSDKBinding/bin/Release/SumUpSDKBinding.resources/SumUpSDKBinding.dll" target="lib/xamarinios10/SumUpSDKBinding.dll" />
+  </files>
+</package>

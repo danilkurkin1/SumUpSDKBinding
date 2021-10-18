@@ -1,0 +1,108 @@
+{
+  "version": 3,
+  "targets": {
+    "Xamarin.iOS,Version=v1.0": {
+      "NuGet.Build.Tasks.Pack/6.0.0-preview.4.243": {
+        "type": "package",
+        "build": {
+          "build/NuGet.Build.Tasks.Pack.targets": {}
+        },
+        "buildMultiTargeting": {
+          "buildCrossTargeting/NuGet.Build.Tasks.Pack.targets": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NuGet.Build.Tasks.Pack/6.0.0-preview.4.243": {
+      "sha512": "7ESguYdp12oIi3i/beUZzCO4xPAQx536gnsAfS5zyPdrCWPfeNiv6H9XjKZM/7ogpPlIQcnXWvECA4e2OqEJHg==",
+      "type": "package",
+      "path": "nuget.build.tasks.pack/6.0.0-preview.4.243",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "CoreCLR/NuGet.Build.Tasks.Pack.dll",
+        "CoreCLR/cs/NuGet.Build.Tasks.Pack.resources.dll",
+        "CoreCLR/de/NuGet.Build.Tasks.Pack.resources.dll",
+        "CoreCLR/es/NuGet.Build.Tasks.Pack.resources.dll",
+        "CoreCLR/fr/NuGet.Build.Tasks.Pack.resources.dll",
+        "CoreCLR/it/NuGet.Build.Tasks.Pack.resources.dll",
+        "CoreCLR/ja/NuGet.Build.Tasks.Pack.resources.dll",
+        "CoreCLR/ko/NuGet.Build.Tasks.Pack.resources.dll",
+        "CoreCLR/pl/NuGet.Build.Tasks.Pack.resources.dll",
+        "CoreCLR/pt-BR/NuGet.Build.Tasks.Pack.resources.dll",
+        "CoreCLR/ru/NuGet.Build.Tasks.Pack.resources.dll",
+        "CoreCLR/tr/NuGet.Build.Tasks.Pack.resources.dll",
+        "CoreCLR/zh-Hans/NuGet.Build.Tasks.Pack.resources.dll",
+        "CoreCLR/zh-Hant/NuGet.Build.Tasks.Pack.resources.dll",
+        "Desktop/NuGet.Build.Tasks.Pack.dll",
+        "Desktop/cs/NuGet.Build.Tasks.Pack.resources.dll",
+        "Desktop/de/NuGet.Build.Tasks.Pack.resources.dll",
+        "Desktop/es/NuGet.Build.Tasks.Pack.resources.dll",
+        "Desktop/fr/NuGet.Build.Tasks.Pack.resources.dll",
+        "Desktop/it/NuGet.Build.Tasks.Pack.resources.dll",
+        "Desktop/ja/NuGet.Build.Tasks.Pack.resources.dll",
+        "Desktop/ko/NuGet.Build.Tasks.Pack.resources.dll",
+        "Desktop/pl/NuGet.Build.Tasks.Pack.resources.dll",
+        "Desktop/pt-BR/NuGet.Build.Tasks.Pack.resources.dll",
+        "Desktop/ru/NuGet.Build.Tasks.Pack.resources.dll",
+        "Desktop/tr/NuGet.Build.Tasks.Pack.resources.dll",
+        "Desktop/zh-Hans/NuGet.Build.Tasks.Pack.resources.dll",
+        "Desktop/zh-Hant/NuGet.Build.Tasks.Pack.resources.dll",
+        "build/NuGet.Build.Tasks.Pack.targets",
+        "buildCrossTargeting/NuGet.Build.Tasks.Pack.targets",
+        "icon.png",
+        "nuget.build.tasks.pack.6.0.0-preview.4.243.nupkg.sha512",
+        "nuget.build.tasks.pack.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "Xamarin.iOS,Version=v1.0": [
+      "NuGet.Build.Tasks.Pack >= 6.0.0-preview.4.243"
+    ]
+  },
+  "packageFolders": {
+    "/Users/danilkurkin/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/danilkurkin/IDC_9.4/SumUpSDKBinding/SumUpSDKBinding/SumUpSDKBinding.csproj",
+      "projectName": "SumUpSDK.iOS",
+      "projectPath": "/Users/danilkurkin/IDC_9.4/SumUpSDKBinding/SumUpSDKBinding/SumUpSDKBinding.csproj",
+      "packagesPath": "/Users/danilkurkin/.nuget/packages/",
+      "outputPath": "/Users/danilkurkin/IDC_9.4/SumUpSDKBinding/SumUpSDKBinding/obj/",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "configFilePaths": [
+        "/Users/danilkurkin/.config/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "xamarinios10"
+      ],
+      "sources": {
+        "/Users/danilkurkin/Forms_DC/NUGET": {},
+        "/Users/danilkurkin/ios-driver-NuGet/NugetPackages": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "xamarinios10": {
+          "projectReferences": {}
+        }
+      }
+    },
+    "frameworks": {
+      "xamarinios10": {
+        "dependencies": {
+          "NuGet.Build.Tasks.Pack": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[6.0.0-preview.4.243, )"
+          }
+        }
+      }
+    }
+  }
+}
